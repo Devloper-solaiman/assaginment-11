@@ -1,0 +1,200 @@
+[
+    {
+        "_id" : 1,
+        "name": "Sony XBR-950G",
+        "img": "https://i.ibb.co/jRybBwF/speaker-1.webp",
+        "price": 1398.00,
+        "quantity":77 ,
+        "supliarName":"Julian K",
+        "discription":"Unlock the world of ultimate colors and contrast with the X950G 4K HDR TV from Sony. Incredibly clear ."
+    },
+    {
+        "_id" : 2,
+        "name": "JBL Flip 4 ",
+        "img": "https://i.ibb.co/6JBv4xV/speaker-2.webp",
+        "price": 74.95,
+        "quantity": 138 ,
+        "supliarName":"Oliver",
+        "discription":"JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker ."
+    },
+    {
+        "_id" : 3,
+        "name": "Sony PS-HX500 ",
+        "img": "https://i.ibb.co/hm5rWCC/Headphone-8.webp",
+        "price": 398.00,
+        "quantity": 15 ,
+        "supliarName":"Michael ",
+        "discription":"Meet the turntable that plays records and lets you convert tracks to portable, Hi-Res Audio for."
+    },
+    {
+        "_id" : 4,
+        "name": "Denon AH-C720 ",
+        "img": "https://i.ibb.co/3dtrW6g/Headphone-7.webp",
+        "price": 119.00,
+        "quantity": 135 ,
+        "supliarName":"Emma ",
+        "discription":"Drawing on half a century of Denon headphone engineering experience, the new 2016 models are designed ."
+    },
+    {
+        "_id" : 5,
+        "name": "Klipsch R-120SW ",
+        "img": "https://i.ibb.co/xYDW9W4/display-1.webp",
+        "price": 324.00,
+        "quantity": "Out of stock",
+        "supliarName":"gastol",
+        "discription":"If you crave deep bass that makes you feel like part of the action on the screen, then youre not alone."
+    },
+    {
+        "_id" : 6,
+        "name": "Sony UBPX1000ES 4K",
+        "img": "https://i.ibb.co/3CzZyMQ/speaker-4.webp",
+        "price": 498.00,
+        "quantity": 148 ,
+        "supliarName":"Liam ",
+        "discription":"Come home to a more immersive experience with 4K HDR playback, Dolby Atmos 3D surround sound and a design."
+    },
+    {
+        "_id" : 7,
+        "name": "Sony XB-950B1",
+        "img": "https://i.ibb.co/FD0qcN7/Headphone-6.webp",
+        "price": 545.00 ,
+        "quantity": 128.00,
+        "supliarName":"Alexander ",
+        "discription":"Feel the freedom and love the bass with these Bluetooth headphones with EXTRA BASS that deliver powerful."
+    },
+    {
+        "_id" : 8,
+        "name": "Sony UBPX1000ES 4K Ultra ",
+        "img": "https://i.ibb.co/B2cf8gX/speaker-5.jpg",
+        "price": 498.00,
+        "quantity": 148 ,
+        "supliarName":"Liam ",
+        "discription":"Come home to a more immersive experience with 4K HDR playback, Dolby Atmos 3D surround sound and a desigN ."
+    },
+    {
+        "_id" : 9,
+        "name": "Sony XBR-65A1E",
+        "img": "https://i.ibb.co/sK5F8ng/display-3.webp",
+        "price": 915.00,
+        "quantity": 2560,
+        "supliarName":"William",
+        "discription":"Armed with a stunning array of technologies like the X1 Extreme Processor, X-Tended Dynamic Range PRO, "
+    },
+    {
+        "_id" : 10,
+        "name": "JBL Flip 4",
+        "img": "https://i.ibb.co/zn2pPqV/speaker-6.webp",
+        "price": 685.00,
+        "quantity": 6000,
+        "supliarName":"Elizabeth",
+        "discription":"Sporting durable, waterproof fabric materials that are available in 6 vibrant colors, Flip 4 is the all ."
+    },
+    {
+        "_id" : 11,
+        "name": "Shure SE425-CL",
+        "img": "https://i.ibb.co/L5pcdh6/Headphone-5.webp",
+        "price": 482.00,
+        "quantity": 364,
+        "supliarName":"Joseph",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning and sonically."
+    },
+    {
+        "_id" : 12,
+        "name": "Samsung UN43LS003 ",
+        "img": "https://i.ibb.co/RCpbsb7/display-4.webp",
+        "price": 983.00,
+        "quantity": 735,
+        "supliarName":"Jacob",
+        "discription":"lorem10"
+    },
+    {
+        "_id" : 13,
+        "name": "Yamaha MusicCast 20",
+        "img": "https://i.ibb.co/kHkxXv8/speaker-7.webp",
+        "price": 250.00,
+        "quantity": 4000,
+        "supliarName":"Mia",
+        "discription":"Boasting reference sound quality and a truly universal 3-button remote/mic that’s fully Android "
+    },
+    {
+        "_id" : 14,
+        "name": "Shure SE215SPE-W-BT1",
+        "img": "https://i.ibb.co/BGsmT10/Headphone-4.webp",
+        "price": 642.00,
+        "quantity": 3052,
+        "supliarName":"Charlotte",
+        "discription":"Armed with a stunning array of technologies like the X1 Extreme Processor, X-Tended Dynamic "
+    },
+    {
+        "_id" : 15,
+        "name": "Samsung UN75NU8000",
+        "img": "https://i.ibb.co/Q9tdfHL/display-5.webp",
+        "price": 456.00,
+        "quantity": 3531,
+        "supliarName":"Amelia",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning ."
+    },
+    {
+        "_id" : 16,
+        "name": "Sony XBR-75Z9D ",
+        "img": "https://i.ibb.co/yYmmZf2/display-6.webp",
+        "price": 645.00,
+        "quantity": 350,
+        "supliarName":"Joshua",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning ."
+    },
+    {
+        "_id" : 17,
+        "name": "Sennheiser RS 5000",
+        "img": "https://i.ibb.co/hDCwnL6/Headphone-3.webp",
+        "price": 65.00,
+        "quantity": 650,
+        "supliarName":"Evelyn",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning."
+    },
+    {
+        "_id" : 18,
+        "name": "Samsung UN75NU6900",
+        "img": "https://i.ibb.co/hYJVWbx/display-7.webp",
+        "price": 485.00,
+        "quantity": 648,
+        "supliarName":"Sarah",
+        "discription":"Armed with a stunning array of technologies like the X1 Extreme Processor, X-Tended "
+    },
+    {
+        "_id" : 19,
+        "name": "Samsung UN43LS003 ",
+        "img": "https://i.ibb.co/sCWf872/display-8.webp",
+        "price": 986.00,
+        "quantity": 458,
+        "supliarName":"Henry",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning."
+    },
+    {
+        "_id" : 20,
+        "name": "Sennheiser CX Sport",
+        "img": "https://i.ibb.co/3fSgSTz/Headphone-2.webp",
+        "price": 98.32,
+        "quantity": 480,
+        "supliarName":"Sophia",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning ."
+    },
+    {
+        "_id" : 21,
+        "name": "Samsung WAM5500/ZA",
+        "img": "https://i.ibb.co/3CzZyMQ/speaker-4.webp",
+        "price": 782.00,
+        "quantity":648,
+        "supliarName":"Noah",
+        "discription":"Android and Apple compatible, the meticulously crafted AKG N20 sets a fine new benchmark"
+    },
+    {
+        "_id" : 22,
+        "name": "Sennheiser CX 6.00 BT",
+        "img": "https://i.ibb.co/FD0qcN7/Headphone-6.webp",
+        "price": 50.00,
+        "quantity": 201,
+        "supliarName":"Thomas",
+        "discription":"Reference class performance meets unlimited connectivity with the visually stunning and."
+    }
+]
