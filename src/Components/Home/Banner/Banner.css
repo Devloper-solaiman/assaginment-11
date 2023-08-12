@@ -1,0 +1,11 @@
+.carousal-img:after {
+    content:'';
+    position:absolute;
+    left:0; 
+    top:0;
+    border-radius: 12px;
+    width:100%; 
+    height:100%;
+    display:inline-block;
+    background: linear-gradient(to left, rgba(194, 4, 4, 0.438) 0%,rgba(13, 128, 194, 0.575) 100%); /* W3C */
+  }
