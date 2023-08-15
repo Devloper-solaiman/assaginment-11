@@ -9,8 +9,6 @@ const Navbar = () => {
     const logout = () => {
         signOut(auth);
     };
-
-
     const navItems = <>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/reviews'>Reviews</Link></li>

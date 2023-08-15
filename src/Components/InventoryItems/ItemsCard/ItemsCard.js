@@ -19,7 +19,7 @@ const ItemsCard = ({ products }) => {
                     <p>{discription}</p>
                     {user ? <Link className="btn btn-sm btn-secondary text-white uppercase bg-gradient-to-r from-secondary to-primary"
                         to={`/chakout/${_id}`} > details </Link> : <Link
-                            className="btn btn-sm btn-disabled text-white lowercase bg-gradient-to-r from-red-500 to-black opacity-40"
+                            className="btn btn-sm  text-white lowercase bg-gradient-to-r from-red-500 to-black opacity-40"
                             to={'/login'} > Please Login </Link>}
                 </div>
             </div>

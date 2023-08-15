@@ -12,6 +12,7 @@ import AllItems from "../../Components/InventoryItems/AllItems/AllItems";
 import AddItem from "../../Components/AddItem/AddItem";
 import ManageItems from "../../Components/ManageItems/ManageItems";
 import UpdateItems from "../../Components/ManageItems/UpdateItems";
+import PageNotFound from "../../Components/Shared/404Page.js/PageNotFound";
 
 const router = createBrowserRouter([
     {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
             {
                 path: '/chakout/:id',
                 element: <ChakOut></ChakOut>,
-                loader: ({ params }) => fetch(`http://localhost:5000/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://assaginment-11-sarver.vercel.app/product/${params.id}`)
             },
             {
                 path: '/login',
@@ -51,7 +52,7 @@ const router = createBrowserRouter([
             {
                 path: '/manageItems',
                 element: <ManageItems></ManageItems>,
-                loader: () => fetch('http://localhost:5000/userproduct')
+                loader: () => fetch('https://assaginment-11-sarver.vercel.app/userproduct')
             },
             {
                 path: '/myitem',
@@ -64,11 +65,15 @@ const router = createBrowserRouter([
             {
                 path: '/update/:id',
                 element: <UpdateItems></UpdateItems>,
-                loader: ({ params }) => fetch(`http://localhost:5000/userproduct/${params.id}`)
+                loader: ({ params }) => fetch(`https://assaginment-11-sarver.vercel.app/userproduct/${params.id}`)
             },
             {
                 path: '/update',
                 element: <UpdateItems></UpdateItems>
+            },
+            {
+                path: '*',
+                element: <PageNotFound></PageNotFound>
             }
 
         ]
