@@ -8,7 +8,7 @@ const ManageItems = () => {
     const Item = useLoaderData()
     const [ItemsManage, setItemsManage] = useState(Item)
     const handleDelete = Items => {
-        fetch(`https://assaginment-11-sarver.vercel.app/userproduct/${Items._id}`, {
+        fetch(`https://assaginment-11.vercel.app/userproduct/${Items._id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

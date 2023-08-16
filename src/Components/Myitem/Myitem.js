@@ -5,7 +5,7 @@ const Myitem = () => {
     const [myProduct, setmyProduct] = useState([]);
 
     useEffect(() => {
-        fetch('https://assaginment-11-sarver.vercel.app/userproduct')
+        fetch('https://assaginment-11.vercel.app/userproduct')
             .then(res => res.json())
             .then(data => {
                 setmyProduct(data)

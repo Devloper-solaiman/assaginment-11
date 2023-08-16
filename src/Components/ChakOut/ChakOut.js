@@ -13,7 +13,7 @@ const ChakOut = () => {
 
     const handleUpdateUser = event => {
         event.preventDefault();
-        fetch(`https://assaginment-11-sarver.vercel.app/product/${users._id}`, {
+        fetch(`https://assaginment-11.vercel.app/product/${users._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'
@@ -53,7 +53,7 @@ const ChakOut = () => {
 
     const handleQuantity = () => {
         users.quantity = parseInt(users.quantity) - 1
-        fetch(`https://assaginment-11-sarver.vercel.app/product/${users._id}`, {
+        fetch(`https://assaginment-11.vercel.app/product/${users._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

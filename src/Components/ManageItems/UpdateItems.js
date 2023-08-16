@@ -9,7 +9,7 @@ const UpdateItems = () => {
     const handleUpdateItem = event => {
         event.preventDefault();
         // console.log(useItems);
-        fetch(`https://assaginment-11-sarver.vercel.app/userproduct/${useItems._id}`, {
+        fetch(`https://assaginment-11.vercel.app/userproduct/${useItems._id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

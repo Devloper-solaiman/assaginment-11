@@ -8,7 +8,7 @@ const AddItem = () => {
         event.preventDefault();
         console.log(users);
 
-        fetch('https://assaginment-11-sarver.vercel.app/userproduct', {
+        fetch('https://assaginment-11.vercel.app/userproduct', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

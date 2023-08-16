@@ -26,7 +26,7 @@ const router = createBrowserRouter([
             {
                 path: '/chakout/:id',
                 element: <ChakOut></ChakOut>,
-                loader: ({ params }) => fetch(`https://assaginment-11-sarver.vercel.app/product/${params.id}`)
+                loader: ({ params }) => fetch(`https://assaginment-11.vercel.app/product/${params.id}`)
             },
             {
                 path: '/login',
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
             {
                 path: '/manageItems',
                 element: <ManageItems></ManageItems>,
-                loader: () => fetch('https://assaginment-11-sarver.vercel.app/userproduct')
+                loader: () => fetch('https://assaginment-11.vercel.app/userproduct')
             },
             {
                 path: '/myitem',
@@ -65,7 +65,7 @@ const router = createBrowserRouter([
             {
                 path: '/update/:id',
                 element: <UpdateItems></UpdateItems>,
-                loader: ({ params }) => fetch(`https://assaginment-11-sarver.vercel.app/userproduct/${params.id}`)
+                loader: ({ params }) => fetch(`https://assaginment-11.vercel.app/userproduct/${params.id}`)
             },
             {
                 path: '/update',
