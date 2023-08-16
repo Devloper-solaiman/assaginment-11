@@ -17,7 +17,7 @@ const MyItemCard = ({ myProducts }) => {
                     <p>{discription}</p>
                     <Link
                         className="btn btn-sm btn-secondary text-white uppercase bg-gradient-to-r from-secondary to-primary"
-                        to={`/chakout/${_id}`} >details</Link>
+                        to={`/mychakout/${_id}`} >details</Link>
                 </div>
             </div>
         </>

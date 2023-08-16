@@ -13,6 +13,7 @@ import AddItem from "../../Components/AddItem/AddItem";
 import ManageItems from "../../Components/ManageItems/ManageItems";
 import UpdateItems from "../../Components/ManageItems/UpdateItems";
 import PageNotFound from "../../Components/Shared/404Page.js/PageNotFound";
+import MyChackout from "../../Components/Myitem/MyChackout";
 
 const router = createBrowserRouter([
     {
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
                 path: '/chakout/:id',
                 element: <ChakOut></ChakOut>,
                 loader: ({ params }) => fetch(`https://assaginment-11.vercel.app/product/${params.id}`)
+            },
+            {
+                path: '/mychakout/:id',
+                element: <MyChackout></MyChackout>,
+                loader: ({ params }) => fetch(`https://assaginment-11.vercel.app/userproduct/${params.id}`)
             },
             {
                 path: '/login',
